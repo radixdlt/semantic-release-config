@@ -1,0 +1,36 @@
+{
+  "name": "@radixdlt/semantic-release-config",
+  "version": "0.0.0",
+  "description": "Shareable semantic-release configuration for NPM packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/radixdlt/semantic-release-config.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "radixdlt",
+    "semantic-release",
+    "web3"
+  ],
+  "author": "Dawid Sowa <dawid.sowa@rdx.works>",
+  "license": "SEE LICENSE IN RADIX-SOFTWARE-EULA",
+  "bugs": {
+    "url": "https://github.com/radixdlt/semantic-release-config/issues"
+  },
+  "release": {
+    "extends": "./index.js"
+  },
+  "homepage": "https://github.com/radixdlt/semantic-release-config#readme",
+  "devDependencies": {
+    "semantic-release": "^23.0.0",
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@saithodev/semantic-release-backmerge": "^3.2.1"
+  }
+}
