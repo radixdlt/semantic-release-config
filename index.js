@@ -46,11 +46,11 @@ module.exports = {
           },
           {
             type: "ci",
-            release: "patch",
+            release: false,
           },
           {
             type: "build",
-            release: "patch",
+            release: false,
           },
           {
             type: "chore",
